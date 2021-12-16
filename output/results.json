@@ -1,0 +1,926 @@
+[
+  {
+    "description": "  User wants to access About section on Capgemini website",
+    "elements": [
+      {
+        "description": "",
+        "id": "access-about-section-on-capgemini-home-page;the-cookie-overlay-should-close-on-acceptance",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "The cookie overlay should close on acceptance",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am on the Capgemini home page",
+            "match": {
+              "location": "features/step_definitions/about.js:15"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5021000000,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout._onTimeout (/Users/jd/ui-automation-use-case/node_modules/@cucumber/cucumber/lib/user_code_runner.js:63:28)\n    at listOnTimeout (node:internal/timers:557:17)\n    at processTimers (node:internal/timers:500:7)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I click on Allow all cookies to accept cookies",
+            "match": {
+              "location": "features/step_definitions/about.js:19"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "The cookies popoup should go away",
+            "match": {
+              "location": "features/step_definitions/about.js:24"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 1725000000,
+              "error_message": "SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 92\nCurrent browser version is 96.0.4664.110 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome\n    at Object.throwDecodedError (/Users/jd/ui-automation-use-case/node_modules/selenium-webdriver/lib/error.js:517:15)\n    at parseHttpResponse (/Users/jd/ui-automation-use-case/node_modules/selenium-webdriver/lib/http.js:643:13)\n    at Executor.execute (/Users/jd/ui-automation-use-case/node_modules/selenium-webdriver/lib/http.js:569:28)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "access-about-section-on-capgemini-home-page;window-should-navigate-to-selected-navigation-option",
+        "keyword": "Scenario Outline",
+        "line": 9,
+        "name": "Window should navigate to selected navigation option",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am on the Capgemini home page",
+            "match": {
+              "location": "features/step_definitions/about.js:15"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 1443000000,
+              "error_message": "SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 92\nCurrent browser version is 96.0.4664.110 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome\n    at Object.throwDecodedError (/Users/jd/ui-automation-use-case/node_modules/selenium-webdriver/lib/error.js:517:15)\n    at parseHttpResponse (/Users/jd/ui-automation-use-case/node_modules/selenium-webdriver/lib/http.js:643:13)\n    at Executor.execute (/Users/jd/ui-automation-use-case/node_modules/selenium-webdriver/lib/http.js:569:28)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I click on Allow all cookies to accept cookies",
+            "match": {
+              "location": "features/step_definitions/about.js:19"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I click \"Industries\"",
+            "match": {
+              "location": "features/step_definitions/about.js:30"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "\"Industries\" is selected",
+            "match": {
+              "location": "features/step_definitions/about.js:35"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 0,
+              "error_message": "SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 92\nCurrent browser version is 96.0.4664.110 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome\n    at Object.throwDecodedError (/Users/jd/ui-automation-use-case/node_modules/selenium-webdriver/lib/error.js:517:15)\n    at parseHttpResponse (/Users/jd/ui-automation-use-case/node_modules/selenium-webdriver/lib/http.js:643:13)\n    at Executor.execute (/Users/jd/ui-automation-use-case/node_modules/selenium-webdriver/lib/http.js:569:28)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "access-about-section-on-capgemini-home-page;window-should-navigate-to-selected-navigation-option",
+        "keyword": "Scenario Outline",
+        "line": 9,
+        "name": "Window should navigate to selected navigation option",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am on the Capgemini home page",
+            "match": {
+              "location": "features/step_definitions/about.js:15"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 1364000000,
+              "error_message": "SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 92\nCurrent browser version is 96.0.4664.110 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome\n    at Object.throwDecodedError (/Users/jd/ui-automation-use-case/node_modules/selenium-webdriver/lib/error.js:517:15)\n    at parseHttpResponse (/Users/jd/ui-automation-use-case/node_modules/selenium-webdriver/lib/http.js:643:13)\n    at Executor.execute (/Users/jd/ui-automation-use-case/node_modules/selenium-webdriver/lib/http.js:569:28)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I click on Allow all cookies to accept cookies",
+            "match": {
+              "location": "features/step_definitions/about.js:19"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I click \"Services\"",
+            "match": {
+              "location": "features/step_definitions/about.js:30"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "\"Services\" is selected",
+            "match": {
+              "location": "features/step_definitions/about.js:35"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 0,
+              "error_message": "SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 92\nCurrent browser version is 96.0.4664.110 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome\n    at Object.throwDecodedError (/Users/jd/ui-automation-use-case/node_modules/selenium-webdriver/lib/error.js:517:15)\n    at parseHttpResponse (/Users/jd/ui-automation-use-case/node_modules/selenium-webdriver/lib/http.js:643:13)\n    at Executor.execute (/Users/jd/ui-automation-use-case/node_modules/selenium-webdriver/lib/http.js:569:28)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "access-about-section-on-capgemini-home-page;window-should-navigate-to-selected-navigation-option",
+        "keyword": "Scenario Outline",
+        "line": 9,
+        "name": "Window should navigate to selected navigation option",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am on the Capgemini home page",
+            "match": {
+              "location": "features/step_definitions/about.js:15"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 1354000000,
+              "error_message": "SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 92\nCurrent browser version is 96.0.4664.110 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome\n    at Object.throwDecodedError (/Users/jd/ui-automation-use-case/node_modules/selenium-webdriver/lib/error.js:517:15)\n    at parseHttpResponse (/Users/jd/ui-automation-use-case/node_modules/selenium-webdriver/lib/http.js:643:13)\n    at Executor.execute (/Users/jd/ui-automation-use-case/node_modules/selenium-webdriver/lib/http.js:569:28)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I click on Allow all cookies to accept cookies",
+            "match": {
+              "location": "features/step_definitions/about.js:19"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I click \"Partners\"",
+            "match": {
+              "location": "features/step_definitions/about.js:30"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "\"Partners\" is selected",
+            "match": {
+              "location": "features/step_definitions/about.js:35"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 1000000,
+              "error_message": "SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 92\nCurrent browser version is 96.0.4664.110 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome\n    at Object.throwDecodedError (/Users/jd/ui-automation-use-case/node_modules/selenium-webdriver/lib/error.js:517:15)\n    at parseHttpResponse (/Users/jd/ui-automation-use-case/node_modules/selenium-webdriver/lib/http.js:643:13)\n    at Executor.execute (/Users/jd/ui-automation-use-case/node_modules/selenium-webdriver/lib/http.js:569:28)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "access-about-section-on-capgemini-home-page;window-should-navigate-to-selected-navigation-option",
+        "keyword": "Scenario Outline",
+        "line": 9,
+        "name": "Window should navigate to selected navigation option",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am on the Capgemini home page",
+            "match": {
+              "location": "features/step_definitions/about.js:15"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 1283000000,
+              "error_message": "SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 92\nCurrent browser version is 96.0.4664.110 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome\n    at Object.throwDecodedError (/Users/jd/ui-automation-use-case/node_modules/selenium-webdriver/lib/error.js:517:15)\n    at parseHttpResponse (/Users/jd/ui-automation-use-case/node_modules/selenium-webdriver/lib/http.js:643:13)\n    at Executor.execute (/Users/jd/ui-automation-use-case/node_modules/selenium-webdriver/lib/http.js:569:28)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I click on Allow all cookies to accept cookies",
+            "match": {
+              "location": "features/step_definitions/about.js:19"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I click \"Our Experts\"",
+            "match": {
+              "location": "features/step_definitions/about.js:30"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "\"Our Experts\" is selected",
+            "match": {
+              "location": "features/step_definitions/about.js:35"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 1000000,
+              "error_message": "SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 92\nCurrent browser version is 96.0.4664.110 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome\n    at Object.throwDecodedError (/Users/jd/ui-automation-use-case/node_modules/selenium-webdriver/lib/error.js:517:15)\n    at parseHttpResponse (/Users/jd/ui-automation-use-case/node_modules/selenium-webdriver/lib/http.js:643:13)\n    at Executor.execute (/Users/jd/ui-automation-use-case/node_modules/selenium-webdriver/lib/http.js:569:28)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "access-about-section-on-capgemini-home-page;window-should-navigate-to-selected-navigation-option",
+        "keyword": "Scenario Outline",
+        "line": 9,
+        "name": "Window should navigate to selected navigation option",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am on the Capgemini home page",
+            "match": {
+              "location": "features/step_definitions/about.js:15"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 1299000000,
+              "error_message": "SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 92\nCurrent browser version is 96.0.4664.110 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome\n    at Object.throwDecodedError (/Users/jd/ui-automation-use-case/node_modules/selenium-webdriver/lib/error.js:517:15)\n    at parseHttpResponse (/Users/jd/ui-automation-use-case/node_modules/selenium-webdriver/lib/http.js:643:13)\n    at Executor.execute (/Users/jd/ui-automation-use-case/node_modules/selenium-webdriver/lib/http.js:569:28)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I click on Allow all cookies to accept cookies",
+            "match": {
+              "location": "features/step_definitions/about.js:19"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I click \"Insights & News\"",
+            "match": {
+              "location": "features/step_definitions/about.js:30"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "\"Insights & News\" is selected",
+            "match": {
+              "location": "features/step_definitions/about.js:35"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 0,
+              "error_message": "SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 92\nCurrent browser version is 96.0.4664.110 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome\n    at Object.throwDecodedError (/Users/jd/ui-automation-use-case/node_modules/selenium-webdriver/lib/error.js:517:15)\n    at parseHttpResponse (/Users/jd/ui-automation-use-case/node_modules/selenium-webdriver/lib/http.js:643:13)\n    at Executor.execute (/Users/jd/ui-automation-use-case/node_modules/selenium-webdriver/lib/http.js:569:28)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "access-about-section-on-capgemini-home-page;window-should-navigate-to-selected-navigation-option",
+        "keyword": "Scenario Outline",
+        "line": 9,
+        "name": "Window should navigate to selected navigation option",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am on the Capgemini home page",
+            "match": {
+              "location": "features/step_definitions/about.js:15"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 1304000000,
+              "error_message": "SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 92\nCurrent browser version is 96.0.4664.110 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome\n    at Object.throwDecodedError (/Users/jd/ui-automation-use-case/node_modules/selenium-webdriver/lib/error.js:517:15)\n    at parseHttpResponse (/Users/jd/ui-automation-use-case/node_modules/selenium-webdriver/lib/http.js:643:13)\n    at Executor.execute (/Users/jd/ui-automation-use-case/node_modules/selenium-webdriver/lib/http.js:569:28)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I click on Allow all cookies to accept cookies",
+            "match": {
+              "location": "features/step_definitions/about.js:19"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I click \"About us\"",
+            "match": {
+              "location": "features/step_definitions/about.js:30"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "\"About us\" is selected",
+            "match": {
+              "location": "features/step_definitions/about.js:35"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 0,
+              "error_message": "SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 92\nCurrent browser version is 96.0.4664.110 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome\n    at Object.throwDecodedError (/Users/jd/ui-automation-use-case/node_modules/selenium-webdriver/lib/error.js:517:15)\n    at parseHttpResponse (/Users/jd/ui-automation-use-case/node_modules/selenium-webdriver/lib/http.js:643:13)\n    at Executor.execute (/Users/jd/ui-automation-use-case/node_modules/selenium-webdriver/lib/http.js:569:28)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "access-about-section-on-capgemini-home-page;window-should-navigate-to-selected-navigation-option",
+        "keyword": "Scenario Outline",
+        "line": 9,
+        "name": "Window should navigate to selected navigation option",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am on the Capgemini home page",
+            "match": {
+              "location": "features/step_definitions/about.js:15"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 1341000000,
+              "error_message": "SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 92\nCurrent browser version is 96.0.4664.110 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome\n    at Object.throwDecodedError (/Users/jd/ui-automation-use-case/node_modules/selenium-webdriver/lib/error.js:517:15)\n    at parseHttpResponse (/Users/jd/ui-automation-use-case/node_modules/selenium-webdriver/lib/http.js:643:13)\n    at Executor.execute (/Users/jd/ui-automation-use-case/node_modules/selenium-webdriver/lib/http.js:569:28)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I click on Allow all cookies to accept cookies",
+            "match": {
+              "location": "features/step_definitions/about.js:19"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I click \"Career\"",
+            "match": {
+              "location": "features/step_definitions/about.js:30"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "\"Career\" is selected",
+            "match": {
+              "location": "features/step_definitions/about.js:35"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 0,
+              "error_message": "SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 92\nCurrent browser version is 96.0.4664.110 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome\n    at Object.throwDecodedError (/Users/jd/ui-automation-use-case/node_modules/selenium-webdriver/lib/error.js:517:15)\n    at parseHttpResponse (/Users/jd/ui-automation-use-case/node_modules/selenium-webdriver/lib/http.js:643:13)\n    at Executor.execute (/Users/jd/ui-automation-use-case/node_modules/selenium-webdriver/lib/http.js:569:28)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "access-about-section-on-capgemini-home-page;user-navigates-to-values-and-ethics-through-about-us-dropdown-and-select-code-of-bussiness-ethics",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "User navigates to values and ethics through about us dropdown and select code of bussiness ethics",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 25,
+            "name": "I am on the Capgemini home page",
+            "match": {
+              "location": "features/step_definitions/about.js:15"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 1407000000,
+              "error_message": "SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 92\nCurrent browser version is 96.0.4664.110 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome\n    at Object.throwDecodedError (/Users/jd/ui-automation-use-case/node_modules/selenium-webdriver/lib/error.js:517:15)\n    at parseHttpResponse (/Users/jd/ui-automation-use-case/node_modules/selenium-webdriver/lib/http.js:643:13)\n    at Executor.execute (/Users/jd/ui-automation-use-case/node_modules/selenium-webdriver/lib/http.js:569:28)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "I click on Allow all cookies to accept cookies",
+            "match": {
+              "location": "features/step_definitions/about.js:19"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "I click on about us",
+            "match": {
+              "location": "features/step_definitions/about.js:40"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "click on company profile and key figure",
+            "match": {
+              "location": "features/step_definitions/about.js:44"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "click on corporate governance",
+            "match": {
+              "location": "features/step_definitions/about.js:49"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "I should see \"Corporate Governance\"",
+            "match": {
+              "location": "features/step_definitions/about.js:54"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 0,
+              "error_message": "SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 92\nCurrent browser version is 96.0.4664.110 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome\n    at Object.throwDecodedError (/Users/jd/ui-automation-use-case/node_modules/selenium-webdriver/lib/error.js:517:15)\n    at parseHttpResponse (/Users/jd/ui-automation-use-case/node_modules/selenium-webdriver/lib/http.js:643:13)\n    at Executor.execute (/Users/jd/ui-automation-use-case/node_modules/selenium-webdriver/lib/http.js:569:28)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "access-about-section-on-capgemini-home-page",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Access About section on Capgemini home page",
+    "tags": [],
+    "uri": "features/about.feature"
+  },
+  {
+    "description": "    User wants to access About section on Capgemini website",
+    "elements": [
+      {
+        "description": "",
+        "id": "access-career-section-on-capgemini-home-page-and-search-for-jobs;the-cookie-overlay-should-close-on-acceptance",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "The cookie overlay should close on acceptance",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am on the Capgemini career page",
+            "match": {
+              "location": "features/step_definitions/career.js:5"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 1318000000,
+              "error_message": "SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 92\nCurrent browser version is 96.0.4664.110 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome\n    at Object.throwDecodedError (/Users/jd/ui-automation-use-case/node_modules/selenium-webdriver/lib/error.js:517:15)\n    at parseHttpResponse (/Users/jd/ui-automation-use-case/node_modules/selenium-webdriver/lib/http.js:643:13)\n    at Executor.execute (/Users/jd/ui-automation-use-case/node_modules/selenium-webdriver/lib/http.js:569:28)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I click on Allow all cookies to accept cookies",
+            "match": {
+              "location": "features/step_definitions/about.js:19"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "The cookies popoup should go away",
+            "match": {
+              "location": "features/step_definitions/about.js:24"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 1000000,
+              "error_message": "SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 92\nCurrent browser version is 96.0.4664.110 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome\n    at Object.throwDecodedError (/Users/jd/ui-automation-use-case/node_modules/selenium-webdriver/lib/error.js:517:15)\n    at parseHttpResponse (/Users/jd/ui-automation-use-case/node_modules/selenium-webdriver/lib/http.js:643:13)\n    at Executor.execute (/Users/jd/ui-automation-use-case/node_modules/selenium-webdriver/lib/http.js:569:28)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "access-career-section-on-capgemini-home-page-and-search-for-jobs;on-career-page-look-for-a-job",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "On career page look for a job",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am on the Capgemini career page",
+            "match": {
+              "location": "features/step_definitions/career.js:5"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 1325000000,
+              "error_message": "SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 92\nCurrent browser version is 96.0.4664.110 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome\n    at Object.throwDecodedError (/Users/jd/ui-automation-use-case/node_modules/selenium-webdriver/lib/error.js:517:15)\n    at parseHttpResponse (/Users/jd/ui-automation-use-case/node_modules/selenium-webdriver/lib/http.js:643:13)\n    at Executor.execute (/Users/jd/ui-automation-use-case/node_modules/selenium-webdriver/lib/http.js:569:28)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I click on Allow all cookies to accept cookies",
+            "match": {
+              "location": "features/step_definitions/about.js:19"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I insert \"test engineer\" in job search bar",
+            "match": {
+              "location": "features/step_definitions/career.js:9"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "A list of jobs should be displayed",
+            "match": {
+              "location": "features/step_definitions/career.js:16"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 0,
+              "error_message": "SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 92\nCurrent browser version is 96.0.4664.110 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome\n    at Object.throwDecodedError (/Users/jd/ui-automation-use-case/node_modules/selenium-webdriver/lib/error.js:517:15)\n    at parseHttpResponse (/Users/jd/ui-automation-use-case/node_modules/selenium-webdriver/lib/http.js:643:13)\n    at Executor.execute (/Users/jd/ui-automation-use-case/node_modules/selenium-webdriver/lib/http.js:569:28)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "access-career-section-on-capgemini-home-page-and-search-for-jobs;job-details-page-should-have-an-option-to-apply",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Job details page should have an option to apply",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "I am on the Capgemini career page",
+            "match": {
+              "location": "features/step_definitions/career.js:5"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 1367000000,
+              "error_message": "SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 92\nCurrent browser version is 96.0.4664.110 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome\n    at Object.throwDecodedError (/Users/jd/ui-automation-use-case/node_modules/selenium-webdriver/lib/error.js:517:15)\n    at parseHttpResponse (/Users/jd/ui-automation-use-case/node_modules/selenium-webdriver/lib/http.js:643:13)\n    at Executor.execute (/Users/jd/ui-automation-use-case/node_modules/selenium-webdriver/lib/http.js:569:28)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "I click on Allow all cookies to accept cookies",
+            "match": {
+              "location": "features/step_definitions/about.js:19"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "I insert \"test engineer\" in job search bar",
+            "match": {
+              "location": "features/step_definitions/career.js:9"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "click on the first link form results",
+            "match": {
+              "location": "features/step_definitions/career.js:21"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "A job detail page should be displayed",
+            "match": {
+              "location": "features/step_definitions/career.js:25"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "Apply Now button should be available",
+            "match": {
+              "location": "features/step_definitions/career.js:29"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 1000000,
+              "error_message": "SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 92\nCurrent browser version is 96.0.4664.110 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome\n    at Object.throwDecodedError (/Users/jd/ui-automation-use-case/node_modules/selenium-webdriver/lib/error.js:517:15)\n    at parseHttpResponse (/Users/jd/ui-automation-use-case/node_modules/selenium-webdriver/lib/http.js:643:13)\n    at Executor.execute (/Users/jd/ui-automation-use-case/node_modules/selenium-webdriver/lib/http.js:569:28)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "access-career-section-on-capgemini-home-page-and-search-for-jobs",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Access Career section on Capgemini home page and search for jobs",
+    "tags": [],
+    "uri": "features/career.feature"
+  }
+]
